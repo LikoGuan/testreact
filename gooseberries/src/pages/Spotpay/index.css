@@ -1,0 +1,161 @@
+input {
+  border-radius: 0;
+}
+
+.home-title {
+  text-align: center;
+}
+
+.main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main form {
+  position: relative;
+}
+
+.main-container {
+  width: 84vw;
+  margin: 5vh auto 0;
+  max-width: 1200px;
+}
+
+.main-currency {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #757575;
+}
+
+.main-container label {
+  line-height: 40px;
+}
+
+.main-method-btn {
+  margin-bottom: 1em;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.main-method-btn[disabled] {
+  opacity: 0.3;
+}
+
+#merchant_reference {
+  background-color: #f8f8f8;
+}
+
+#merchant_reference:hover,
+#merchant_reference:focus {
+  background-color: white;
+}
+
+.main-method-btn--alipay {
+  background: #149ce3;
+}
+
+.main-method-btn--wechat {
+  background: #09bb07;
+}
+
+.main-wallet-container {
+  padding-right: 13px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  max-width: 100%;
+}
+
+.main .main-field-amount {
+  height: 70px;
+}
+
+.main-wallet-select {
+  background: #eaf0f6;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  align-items: start;
+  font-size: 1em;
+  max-width: 100%;
+  float: right;
+  direction: rtl;
+  color: #757575;
+}
+
+.main-wallet-container::after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #757575;
+  clear: both;
+}
+
+.main-wallet-select:focus {
+  outline: none !important;
+}
+
+.main-wallet-select option {
+  direction: rtl;
+  color: #757575;
+}
+
+.main-amount-head {
+  position: relative;
+}
+
+.main-field-reference input {
+  background: white;
+  color: #474747;
+  padding: 0 10px;
+}
+
+.main-field-amount input {
+  background: white;
+  color: #474747;
+  padding-right: 50px;
+}
+
+.main-field-amount__disabled input {
+  background: rgba(255, 255, 255, 0.3);
+  color: #6bbf70;
+  -webkit-text-fill-color: #6bbf70;
+}
+
+.main-field-amount input::-webkit-input-placeholder,
+.main-field-reference input::-webkit-input-placeholder {
+  color: rgba(117, 117, 117, 0.3);
+  font-size: 0.8em;
+}
+
+.main-field-amount .prefix {
+  color: #787878;
+}
+
+.main-field-amount label,
+.main-field-reference label {
+  color: #757575;
+}
+
+.main-field-reference {
+  margin-top: 10px;
+}
+
+.main-field-amount .prefix__green {
+  color: #6bbf70;
+}

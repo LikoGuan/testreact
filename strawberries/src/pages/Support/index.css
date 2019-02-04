@@ -1,0 +1,302 @@
+.sp {
+  background: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  min-height: 100%;
+}
+
+.sp-header {
+  /* background: grey; */
+  margin-top: 50px;
+  /* height: 150px; */
+  height: 70px;
+  border-bottom: 1px solid #d7d8dd;
+}
+
+.sp-support {
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.sp-nav {
+  /* background: yellow; */
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+  font-size: 0.75rem;
+  margin-top: 0.5em;
+}
+
+.sp-nav a {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 2em;
+  color: #2b3660;
+}
+
+.sp-nav .selected {
+  color: #6ec177;
+}
+
+.sp-nav .floatright {
+  float: right;
+}
+
+.sp-btn--fillgreen {
+  background: #6ec177;
+  padding: 8px 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.sp-btn--fillgreen:hover {
+  color: #eee;
+}
+
+.sp-search {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+}
+
+.sp-search img {
+  position: absolute;
+  display: inline-block;
+  top: 12px;
+  left: 12px;
+}
+
+.sp-search input {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  padding: 0 10px 0 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #6ec177;
+}
+
+.sp-body {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.sp-step {
+  height: 80px;
+}
+
+.sp-steps {
+  margin-top: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sp-steps .step {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 25%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.step--gray {
+  color: #999;
+}
+
+.step--green {
+  color: #6ec177;
+}
+
+.step--blue {
+  color: #4b5782;
+}
+
+.step--gray .line {
+  background: #d7d8dd;
+}
+
+.step--blue .line {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(left, #6ec177, #4b5782);
+  background-image: -o-linear-gradient(left, #6ec177, #4b5782);
+  background-image: linear-gradient(to right, #6ec177, #4b5782);
+}
+
+.step--green .line {
+  background: #6ec177;
+}
+
+/* .step:nth-child(2n+1) {
+  background: grey;
+} */
+
+.sp-steps .line {
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 4.5px;
+  transform: translateX(-100%);
+  z-index: 0;
+}
+
+.sp-steps .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #4b5782;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.sp-steps .text {
+  padding-top: 15px;
+}
+
+.sp-footer {
+  padding-top: 20px;
+  text-align: center;
+  height: 144px;
+  background: #f7f7f8;
+}
+
+.sp-footer button {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.sp-btn {
+  background: white;
+  color: #4b5782;
+  border: 1px solid #4b5782;
+  border-radius: 2px;
+  font-size: 0.95em;
+}
+
+.sp-btn--selected {
+  color: #6ec177;
+  border-color: #6ec177;
+}
+
+.sp-btn--fillblue {
+  background: #4b5782;
+  padding: 8px 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.sp-btn--fillblue:hover {
+  color: #eee;
+}
+
+.sp h3,
+.sp li,
+.sp p,
+.sp label {
+  color: #4b5782;
+}
+
+.sp p,
+.sp li {
+  margin-top: 1.2em;
+}
+
+.sp ul {
+  padding-left: 18px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.sp h3 {
+  font-weight: bold;
+}
+
+.sp .highlight {
+  color: #6ec177;
+}
+
+.sp-body .sp-btn {
+  margin: 30px 50px 30px 0;
+}
+
+.sp-footer .sp-contactus {
+  margin: 30px 50px 30px 20px;
+  background: white;
+  color: #4b5782;
+  border-color: #4b5782;
+  border-radius: 2px;
+  font-size: 0.95em;
+  font-weight: bold;
+  border: 1px solid #4b5782;
+  padding: 5px 10px;
+}
+
+.sp .sp-btn--fillblue,
+.sp .sp-btn--fillgreen {
+  margin-right: 20px;
+  font-size: 0.8em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.sp-img-full {
+  width: 100%;
+}
+
+.sp li .sp-inline-img {
+  width: 20px;
+  height: 20px;
+}
+
+.sp input#manu {
+  margin-right: 10px;
+}
+
+.sp input#auto {
+  margin: 0 10px 0 40px;
+}
+
+p.sp-withdraw-time {
+  margin-top: 0.5em;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .sp-nav {
+    width: 100%;
+  }
+
+  .sp-search {
+    width: 95%;
+  }
+
+  .sp-body {
+    width: 95%;
+  }
+
+  .sp-steps {
+    width: 100%;
+  }
+}
+
+.sp-link {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 570px) {
+  .sp-xs-hidden {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "watch": [
+        "server.js",
+        "config.js",
+        "./server"
+    ]
+}

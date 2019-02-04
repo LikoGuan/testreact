@@ -1,0 +1,12 @@
+.coupon .intro {
+    padding: 0 10px;
+}
+
+.coupon .link {
+    color: #6bc274;
+    text-decoration: underline;
+}
+
+.coupon .btn-success {
+  margin-left: 10px;
+}

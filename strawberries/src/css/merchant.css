@@ -1,0 +1,184 @@
+.lat-greeting {
+  padding-left: 10px;
+}
+.lat-currency-header {
+  display: flex;
+  align-items: center;
+}
+.lat-search-input {
+  width: 100%;
+}
+.lat-search-input input {
+  width: 40vw;
+  max-width: 200px;
+}
+.lat-currency-total {
+  margin-left: 10px;
+}
+.lat-content .withdrawals {
+  color: #6bc274 !important;
+}
+
+.lat-content .refunds {
+  color: #ff8e00 !important;
+}
+.lat-dropdown-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 16px;
+}
+.lat-daypicker-selected {
+  background-color: #1b223e;
+}
+
+.lat-toggle-hide {
+  display: none;
+}
+
+.lat-toggle-show {
+  display: block;
+}
+
+.inline-block-container .button-icon {
+  display: inline-block;
+}
+
+@media (max-width: 425px) {
+  .lat-main-container {
+    padding: 0 10px;
+  }
+
+  .lat-history-header {
+    flex-direction: column;
+  }
+
+  .lat-header-op {
+    padding: 0 10px 10px;
+  }
+
+  .lat-search-input input {
+    width: 100%;
+  }
+
+  .lat-search-input .lat-search-text {
+    display: none;
+  }
+
+  .lat-search-input input {
+    font-size: 13px;
+  }
+}
+
+.header-contact-us {
+  float: right;
+}
+
+.footer-tips {
+  border-top: 1px solid rgba(75, 87, 130, 0.2);
+  color: #4a568c;
+}
+
+.footer-tips .asterisk {
+  vertical-align:sub;
+}
+
+.green {
+  color: #6bc274;
+}
+
+.control-label-description {
+  float: right;
+  color: #6bc274;
+  cursor: help;
+}
+
+.role-description {
+  width: 100%;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.table-container table {
+  width: 100%;
+  font-family: "Titillium Web", "PingFang SC", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", sans-serif;
+}
+
+.table-container p {
+  white-space: pre;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: normal;
+  padding: 5px 0;
+  line-height: 1.4em;
+}
+
+.table-container td, .table-container th {
+  border: 1px solid #dddddd;
+  padding: 5px 8px;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.table-container tr {
+  background-color: white;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.table-container tr:nth-child(even){
+  background-color: #f7f7f7;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.footer {
+  margin-bottom: 30px;
+  padding: 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(75, 87, 130, 0.2);
+}
+
+.footer h4 {
+  padding: 0;
+  margin-top: 0;
+}
+
+.footer .phones {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer .icon {
+  padding-right: 5px;
+}
+
+.footer .icon--phone {
+  padding-top: 9px;
+  vertical-align: top;
+}
+
+.footer p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.footer img {
+  width: 18px;
+}
+
+.footer a {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.lat-main-container {
+  margin-bottom: 0;
+}

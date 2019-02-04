@@ -1,0 +1,163 @@
+.barcode-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.barcode-modal h2,
+.barcode-modal p,
+.barcode-modal button {
+  font-family: 'Source Sans Pro', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;
+  font-weight: 400;
+}
+
+.barcode-modal h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.barcode-modal p {
+  color: #757575;
+}
+
+.barcode-modal-card {
+  background: #fff;
+
+  height: 90%;
+
+  width: 90%;
+  max-height: 700px;
+  max-width: 500px;
+
+  padding: 10px;
+
+  /*--center--*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+/*--title and cancelBtn vertical center;
+cancelBtn align right;
+--*/
+
+.barcode-modal-head {
+  position: relative;
+}
+
+.barcode-modal-head-container {
+  width: 100%;
+}
+
+.barcode-modal__title {
+  display: inline-block;
+  color: #4d4d4d;
+}
+
+.barcode-modal__cancel {
+  position: absolute;
+  right: 10px;
+  height: 100%;
+  color: #6bbf70;
+  font-size: 1em;
+  background: white;
+  border: none;
+}
+
+/*--end--*/
+
+.barcode-modal__wallet,
+.barcode-modal__amount,
+.barcode-modal__amount--cny
+ {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.barcode-modal__tips {
+  font-size: 0.8em;
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+.barcode-modal__wallet {
+  margin-top: -5px;
+}
+
+.barcode-modal__amount--last {
+  color: #6BBF70;
+  font-size: 2.5em;
+}
+
+.barcode-modal__amount--cny {
+  margin-top: -5px;
+  display: block;
+  /*margin-bottom: 2.5em;*/
+}
+
+.barcode-modal__payment {
+  display: block;
+  width: 120px;
+  margin: 0.6em auto 1.5em;
+}
+
+.barcode-modal .barcode-modal__error {
+  color: #fc0c1b;
+  font-size: 1.2em;
+}
+
+.barcode-modal .barcode-modal__reload {
+  background: #4e75ff;
+  height: 40px;
+  color: #fff;
+
+  width: 80%;
+  margin: 0 auto;
+
+  letter-spacing: 1px;
+}
+
+.barcode-modal-scanner {
+  text-align: center;
+  width: 50%;
+  max-width: 200px;
+  margin: 60px 5px 0 5px;
+  display: inline-block;
+}
+
+.barcoe-modal-links {
+  margin-top: 40px;
+}
+
+.barcoe-modal-links a {
+  line-height: 30px;
+  text-decoration: none;
+  color: #757575;
+}
+
+p.barcode-modal-warnning {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .barcode-modal-card {
+    width: 60%;
+    padding: 30px;
+  }
+}
+
+.barcode-modal-scanner__spinner {
+  min-height: 30px;
+}

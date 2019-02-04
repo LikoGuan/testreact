@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;
+  color: #2b3660;
+  background: #eaf0f6;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+}
+
+.confirmation-row {
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.55em 0;
+  color: #757575;
+}
+
+.confirmation-row-value {
+  text-align: right;
+}
+
+.confirmation-row-value--green {
+  color: #6bbf70;
+}
+
+.confirmation-row-value--red {
+  color: #fc0c1b;
+}
+
+.confirmation-receipt {
+  margin-bottom: 20px;
+}
+
+.confirmation-receipt hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+.login-btn {
+	margin-top: 20px;
+}
+
+/*login page for keyboard*/
+
+@media (max-height: 400px) {
+	div.login-left-side {
+		padding-top: 0;
+	}
+
+	.login-left-side label {
+		line-height: 20px;
+	}
+
+	.login-hide-when-keyboad {
+		display: none;
+	}
+
+	.login-field {
+		height: 80px;
+	}
+
+	.login-btn {
+		margin-top: 0;
+	}
+}
+
+input:hover {
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-offset: -2px;
+}

@@ -1,0 +1,81 @@
+
+/*-Header-*/
+
+nav {
+  background: #131e47;
+  height: 44px;
+  text-align: center;
+
+  padding: 10px 20px;
+  overflow: visible;
+
+  position: relative;
+}
+
+.logo {
+  float: left;
+  width: 18px;
+  height: 25px;
+  background-image: url(/logo-light.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menus {
+  line-height: 25px;
+  display: inline-block;
+}
+
+.menu {
+  margin: 0 1em;
+  color: #c9c9c9;
+  text-decoration: none;
+
+  letter-spacing: 2px;
+}
+
+.menu--selected {
+  color: #6bbf70;
+}
+
+.logout {
+  cursor: pointer;
+  float: right;
+}
+
+.logout img {
+  width: 20px;
+  margin-top: 2px;
+}
+
+.menu-long {
+  display: none;
+}
+
+.menu-short {
+  display: inline;
+}
+
+@media (min-width: 810px) {
+  .logo {
+    width: 75px;
+  }
+
+  .menu {
+    margin: 0 3em;
+  }
+
+  .menu-long {
+    display: inline;
+  }
+
+  .menu-short {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .menus a {
+    /* float: right; */
+  }
+}

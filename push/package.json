@@ -1,0 +1,35 @@
+{
+  "name": "push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eslint . && node index.js",
+    "deploy": "eslint . && sh .deploy.sh",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Latipay/push.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Latipay/push/issues"
+  },
+  "homepage": "https://github.com/Latipay/push#readme",
+  "dependencies": {
+    "apn": "^v3.0.0-alpha1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "randomstring": "^1.1.5",
+    "winston": "^3.0.0-rc3"
+  },
+  "engines": {
+    "node": ">=8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-plugin-node": "^6.0.1"
+  }
+}

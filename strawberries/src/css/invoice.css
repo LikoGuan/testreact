@@ -1,0 +1,105 @@
+.invoice-sent {
+  padding-top: 35px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.invoice-sent h2 {
+  color: #fff;
+  font-size: 1.5em;
+}
+.invoice-sent hr {
+  margin: 45px auto 8px;
+  border-top-color: #9CB7FF;
+}
+
+.invoice-sent a {
+  text-decoration: underline;
+}
+
+.invoice-sent--link {
+  margin: 0px auto 40px;
+}
+
+.invoice-sent--icon {
+  margin: 0 5px;
+}
+
+.invoice-sent--icon-text {
+  display: inline;
+  position: relative;
+  color: #cad5ff;
+}
+
+.invoice-sent--clipboard {
+  position: absolute;
+  right: -70px;
+  bottom: 27px;
+
+  background: #EAF0F6;
+  color: #4B5782;
+
+  padding: 8px;
+
+  max-width: 100%;
+}
+
+.invoice-sent--clipboard-head {
+  margin: 0;
+  text-align: left;
+  color: #4B5782;
+  font-size: 0.9em;
+}
+
+.invoice-sent--clipboard-icon {
+  margin: 0 8px;
+}
+
+.invoice-sent--clipboard-url {
+  margin: 0;
+  padding-left: 32px;
+  text-align: left;
+  color: #8D98BC;
+  font-size: 0.7em;
+  word-wrap: break-word;
+
+  line-height: 140%;
+}
+
+.invoice-sent .btn-success {
+  color: white;
+}
+
+.lat-table .btn.btn-default {
+  margin-left: -16px;
+}
+
+.lat-table .btn.btn-default:last-of-type {
+  margin-right: -16px;
+}
+
+.page-header {
+  border-bottom: 1px solid rgba(75, 87, 130, 0.2);
+}
+
+.lat-placeholder {
+  min-height: auto;
+}
+
+
+.invoice-detail__link {
+  color: #4b70ff;
+}
+
+.invoice-detail__link svg g {
+  stroke: #4b70ff;
+}
+
+.btn-nocapital {
+  text-transform: none;
+}
+
+.btn-create-invoice {
+  margin-top: 25px;
+}

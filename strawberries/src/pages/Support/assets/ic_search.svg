@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M9.87147266,9.16436588 L14.7071068,14 L14,14.7071068 L9.16436588,9.87147266 C8.30243059,10.5768174 7.2006351,11 6,11 C3.23857625,11 1,8.76142375 1,6 C1,3.23857625 3.23857625,1 6,1 C8.76142375,1 11,3.23857625 11,6 C11,7.2006351 10.5768174,8.30243059 9.87147266,9.16436588 Z M9.15992871,8.45282193 C9.6864592,7.77548007 10,6.92435573 10,6 C10,3.790861 8.209139,2 6,2 C3.790861,2 2,3.790861 2,6 C2,8.209139 3.790861,10 6,10 C6.92435573,10 7.77548007,9.6864592 8.45282193,9.15992871 L8.29289322,9 L9,8.29289322 L9.15992871,8.45282193 Z" id="path-1"></path>
+    </defs>
+    <g id="Search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Oval" fill="#4FA162" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="swatch/-blue" mask="url(#mask-2)" fill="#4FA162">
+            <rect id="Blue" x="0" y="0" width="14" height="14"></rect>
+        </g>
+    </g>
+</svg>

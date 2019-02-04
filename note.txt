@@ -1,0 +1,6 @@
+strawberries 		--> merchant portal
+staticpay 		--> static pay
+cranberries		--> pay.latipay.net/pay/{nonce}
+push			--> ios push
+gooseberries		--> spot pay
+blueberries		--> trade portal

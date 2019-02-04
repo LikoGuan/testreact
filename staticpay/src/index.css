@@ -1,0 +1,249 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #2b3660;
+	background: #eaf0f6;
+
+	font-family: 'Titillium Web','PingFang SC',-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif;
+	font-weight: 400;
+}
+
+h3 {
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+}
+
+
+.staticqr-form, .confirm-receipt {
+	min-height: 100vh;
+	padding-bottom: 40px;
+	width: 88vw;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.staticqr-field-amount input, .staticqr-field-reference input {
+	background: white;
+	color: #474747;
+}
+
+.staticqr-field-amount input::-webkit-input-placeholder,
+.staticqr-field-reference input::-webkit-input-placeholder {
+	color: rgba(117, 117, 117, 0.3);
+	font-size: 0.8em;
+}
+
+.staticqr-field-amount input {
+	padding-right: 50px;
+}
+
+.staticqr-field-amount .prefix {
+	color: #787878;
+}
+
+.staticqr-field-reference input {
+	padding: 0 10px;
+}
+
+.staticqr-field-amount label, .staticqr-field-reference label {
+	color: #757575;
+}
+
+.staticqr-field-reference {
+	margin-top: 10px;
+}
+
+.staticqr-field-amount .prefix__green {
+	color: #6BBF70;
+}
+
+.staticqr-field-amount__disabled input {
+	background: rgba(255, 255, 255, 0.31);
+	color: #6BBF70;
+	-webkit-text-fill-color: #6BBF70;
+}
+
+.currency {
+	position: absolute;
+	right: 10px;
+	top: 43px;
+	color: #757575;
+}
+
+.currency__green {
+	color: #6BBF70;
+}
+
+.staticqr-fee-container {
+	width: 100%;
+}
+
+.staticqr-fee {
+	margin: 7px 0;
+
+	font-size: 0.8em;
+	color: #888888;
+	width: 100%;
+
+	min-height: 20px;
+}
+
+.staticqr-btn {
+	/* for footer */
+	margin-bottom: 10px;
+}
+
+.staticqr-form .staticqr-btn[disabled] {
+	opacity: 0.3;
+}
+
+/* confirm */
+
+.confirm-head {
+	display: flex;
+	background: white;
+	justify-content: center;
+	font-size: 0.9em;
+	/*width: 90%;*/
+	/*max-width: 800px;*/
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	align-items: center;
+}
+
+.confirm-head img {
+  	vertical-align: middle;
+  	width: 20%;
+  	max-width: 100px;
+  	margin-bottom: 20px;
+}
+
+.confirm-head--status {
+  	font-size: 1.5em;
+  	color: #89C68B;
+		margin-left: 10px;
+}
+
+.confirm-head--status__failed {
+	color: #757575;
+}
+
+.confirm-row {
+	background: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.55em 1em;
+	font-size: 1.05em;
+	color: #9C9C9C;
+}
+
+.confirm-receipt:after {
+	content: " ";
+    display: block;
+    position: relative;
+	top: -2px;
+	left: 0px;
+    width: 100%;
+    height: 27px;
+    background: linear-gradient(white 0%, transparent 0%), linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background: -webkit-linear-gradient(white 0%, transparent 0%), -webkit-linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 -webkit-linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background: -o-linear-gradient(white 0%, transparent 0%), -o-linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 -o-linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background: -moz-linear-gradient(white 0%, transparent 0%), -moz-linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 -moz-linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 19px 27px, 19px 27px;
+}
+
+.confirm-footer-anz {
+	display: block;
+}
+
+.confirm-footer-anz-text {
+	height: 40px;
+}
+
+.confirm-footer-anz img {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.confirm-row-value {
+	text-align: right;
+}
+
+@media only screen and (min-width: 1024px)  {
+	.confirm-row {
+		padding: 0.7em 1.2em;
+		font-size: 1.4em;
+	}
+	.confirm-head--status {
+  		font-size: 3.0em;
+	}
+}
+
+@media only screen and (max-height: 732px)  {
+	.confirm-row {
+		padding: 0.3em 1em;
+		font-size: 1em;
+	}
+}
+
+
+/*-- wechat h5 --*/
+.confirm-refresh-link {
+    display: inline-block;
+    color: #757575;
+    margin-top: 20px;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.confirm-receipt-container {
+	text-align: center; /*center .confirm-refresh-link*/
+	min-height: 100vh;
+	padding-bottom: 40px;
+	width: 88vw;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.confirm-back-to-app-btn {
+	margin-top: 30px;
+	font-size: 0.95em;
+}
+
+.confirm-receipt__btn:after {
+	content: " ";
+    display: block;
+    position: relative;
+	top: -2px;
+	left: 0px;
+    width: 100%;
+    height: 27px;
+    background: linear-gradient(white 0%, transparent 0%), linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background: -webkit-linear-gradient(white 0%, transparent 0%), -webkit-linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 -webkit-linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background: -o-linear-gradient(white 0%, transparent 0%), -o-linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 -o-linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background: -moz-linear-gradient(white 0%, transparent 0%), -moz-linear-gradient(135deg, #EAF0F6 33.33%, transparent 33.33%) 0 0%, #EAF0F6 -moz-linear-gradient(45deg, #EAF0F6 33.33%, white 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 19px 27px, 19px 27px;
+}
+
+.confirm-receipt {
+	min-height: 0;
+	padding-bottom: 0;
+}
